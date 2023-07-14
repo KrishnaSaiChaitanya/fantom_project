@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_item_product_items",
+  "info": {
+    "displayName": "ProductItem",
+    "icon": "priceTag"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "price": {
+      "type": "float"
+    },
+    "actualprice": {
+      "type": "float"
+    },
+    "Categoery": {
+      "type": "enumeration",
+      "enum": [
+        "shirts",
+        "t-shirts",
+        "pants"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "s",
+        "md",
+        "lg"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "Instock": {
+      "type": "boolean"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "pictures": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
