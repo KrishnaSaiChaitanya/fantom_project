@@ -16,7 +16,8 @@
     "@strapi/provider-upload-cloudinary": "^4.11.3",
     "@strapi/strapi": "4.11.3",
     "pg": "8.8.0",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "mysql2": "^3.5.2"
   },
   "author": {
     "name": "A Strapi developer"
