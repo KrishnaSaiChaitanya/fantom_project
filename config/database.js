@@ -26,7 +26,7 @@ module.exports = ({ env }) => {
       },
       pool: {
         min: env.int("DATABASE_POOL_MIN", 2),
-        max: env.int("DATABASE_POOL_MAX", 4),
+        max: env.int("DATABASE_POOL_MAX", 2),
       },
     },
     mysql2: {
@@ -50,7 +50,7 @@ module.exports = ({ env }) => {
       },
       pool: {
         min: env.int("DATABASE_POOL_MIN", 2),
-        max: env.int("DATABASE_POOL_MAX", 4),
+        max: env.int("DATABASE_POOL_MAX", 2),
       },
     },
     postgres: {
