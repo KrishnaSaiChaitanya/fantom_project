@@ -62,6 +62,9 @@ export default {
     translations: {
       en: {
         "app.components.LeftMenu.navbrand.title": "Dashboard",
+        "app.components.HomePage.welcome.again": "Welcome to Fantom Dashboard",
+        "Auth.form.welcome.subtitle": "Please Login To Our Dashboard",
+        "Auth.form.welcome.title": "Welocome",
       },
       "pt-BR": {
         "app.components.LeftMenu.navbrand.title": "Painel",

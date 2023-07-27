@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_address_addersses",
+  "info": {
+    "displayName": "Adderss",
+    "icon": "pinMap"
+  },
+  "options": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "adderess_optional": {
+      "type": "string"
+    },
+    "town": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "Zip_code": {
+      "type": "integer",
+      "max": 999999
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "biginteger"
+    }
+  }
+}

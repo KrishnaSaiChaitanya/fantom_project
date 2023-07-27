@@ -1,27 +1,26 @@
 {
   "kind": "collectionType",
-  "collectionName": "wishlists",
+  "collectionName": "orders",
   "info": {
-    "singularName": "wishlist",
-    "pluralName": "wishlists",
-    "displayName": "wishlist",
-    "description": ""
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Wishlist": {
+    "Ordered_Items": {
       "type": "component",
       "repeatable": true,
       "component": "item.product-item"
     },
     "users_permissions_user": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
-      "inversedBy": "wishlist"
+      "inversedBy": "orders"
     }
   }
 }

@@ -12,50 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "ProductImage": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "Name": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
-    "InStock": {
-      "type": "boolean",
-      "default": true
-    },
-    "Size": {
-      "type": "enumeration",
-      "enum": [
-        "verysmall",
-        "small",
-        "medium",
-        "large",
-        "verylarge"
-      ],
-      "required": true
-    },
-    "Description": {
-      "type": "text",
-      "required": true
-    },
-    "price": {
-      "type": "integer",
-      "required": true
-    },
-    "Categoery": {
-      "type": "enumeration",
-      "enum": [
-        "shirt",
-        "T-shirt",
-        "sleeveShirt",
-        "overSizedT-shirt"
-      ]
+    "Product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.product-item"
     }
   }
 }
